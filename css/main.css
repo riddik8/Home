@@ -38,6 +38,9 @@ h1,h2,h3,h4,h5,p{
 	position: relative;
 	z-index: 1;
 }
+.address_login a:hover{
+	text-decoration: underline;
+}
 address{
 	display: inline-block;
 }
@@ -687,22 +690,20 @@ footer{
     pointer-events: auto;
 }
 .modalForm > div {
-	display: flex;
-	flex-wrap: wrap;
     width: 340px;
     position: relative;
-    margin: 10% auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     padding: 13px 20px 16px;
     border-radius: 4px;
     background: #fff;
-    justify-content: center;
 }
 .modal-logo{
-	display: block;
 	background: url(../images/modal-logo.png) no-repeat;
 	width: 162px;
 	height: 44px;
-	margin-bottom: 18px;
+	margin: 0 auto 18px;
 }
 .close {
 opacity: 0.25;
@@ -766,4 +767,7 @@ input[type=text]{
 }
 input[type=password]{
 	margin-bottom: 13px;
+}
+.hidden{
+	overflow: hidden;
 }

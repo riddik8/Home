@@ -1,0 +1,2 @@
+document.querySelector(".login").addEventListener("click", () => document.body.classList.add("hidden"));
+document.querySelector(".close").addEventListener("click", () => document.body.classList.remove("hidden"));
